@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0:;
+}
+
+body,html{
+	font-family: 'Montserrat',sans-serif;
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
+}
+
+h2{
+	font-weight: 200;
+	font-size: 2.2rem;
+}
+
+.pd-5{
+	padding: 5%;
+}
+
+.mt-3{
+	margin-top: 3%;
+}
+.white{
+	color: white;
+}
+
+.celeste{
+	color: #68ADFF;
+}
+
+.servicios a{
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+	border: 1px solid #F1F1F1;
+	text-align: center;
+	padding-top: 45px;
+	display: inline-block;
+	font-size: 2.5rem;
+	text-decoration: none;
+}
+
+.servicios p{
+	margin-top: 7%;
+}
+
+.servicios{
+	border-bottom: 1px solid gray;	
+	padding-bottom: 50%;
+}
