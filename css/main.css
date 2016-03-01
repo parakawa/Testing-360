@@ -17,56 +17,63 @@ h2{
 	font-size: 2.5rem;
 }
 
-/*******UTILITIES******/
-.pd-5{
-	padding: 5%;
-}
-
-.mt-3{	
-	margin-top: 3%;
-}
-
-.mt-5{
-	margin-top: 5%;
-}
-
-.pb-4{
-	padding-bottom: 4%;
-}
-.white{
-	color: white;
-}
-
-.celeste{
-	color: #68ADFF;
-}
-
-.azul-user{
-	color: #3982A9;
-}
-
-.black{
-	color: black;
-}
-
-.bg-white{
-	background-color: white;
-}
-
-.left{
-	text-align: left;
-}
-
-.right{
-	text-align: right;
-}
-
-.justify{
-	text-align: justify;
-}
-
-.w-100{
+/*********HEADER*******/
+header{
+	background-color: rgba(85, 85, 85, 0.7);
+	position: fixed;
+	z-index: 2;
 	width: 100%;
+}
+.navbar{
+	padding: 1% 2%;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+
+.navbar-toggle {
+	padding: 7px 5px;
+}
+header a img{
+	margin-top: 2%;
+	width: 270px;
+}
+header nav a{
+	font-size: 1.5em;
+}
+.navbar-default .navbar-nav>li>a {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #337ab7;
+    background-color: white;
+    border-radius: 5px;
+}
+/********BANNER********/
+.banner{
+	background-image: url("../image/large.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 650px;
+}
+.opaco{
+	background-color: rgba(85, 85, 85, 0.57);
+	height: 100%;
+}
+.banner h1{
+	text-align: center;
+	color: white;
+	font-size: 3.3em;
+	padding: 18% 10%;
+}
+
+.free{
+	background-color: rgba(78, 126, 184, 0.83);
+	color: white;
+	position: absolute;
+	width: 100%;
+	bottom: 9px;
 }
 /******SERVICIOS******/
 
@@ -120,7 +127,8 @@ h2{
 /*******LO QUIERO, QUÉ HAGO ********/
 .bg-laptop{
 	background: url('../image/sec-2.jpg');
-	padding:4%;
+	background-size: cover;
+	width: 100%;
 }
 
 /*******¿POR QUÉ?******/
@@ -130,7 +138,6 @@ h2{
 }
 /******FREE TRIAL*****/
 .free-trial{
-	background-color: #74A3DB;
 	padding: 2%;
 	}
 
@@ -151,4 +158,8 @@ h2{
 .bg-footer{
 	background-color: #2A3541;
 	padding: 3%;
+}
+
+footer i{
+	font-size: 2rem;
 }
