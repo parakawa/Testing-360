@@ -73,11 +73,11 @@ header nav a{
 	color: white;
 	position: absolute;
 	width: 100%;
-	bottom: 9px;
+	bottom: 23px;
 }
 /******SERVICIOS******/
 
-.servicios a{
+.servicios .col-md-4 a{
 	height: 150px;
 	width: 150px;
 	border: none;
@@ -97,17 +97,14 @@ header nav a{
 .servicios{
 	border-bottom: 1px solid #EEEEEE;	
 	padding-bottom: 10%;
-	position: relative;
 }
 
+.separador {
+	top: 162px;
+}
 .separador{
-	background: url('../image/separador.png');
-	background-size: cover;
-	padding:4%;
-	position: absolute;
-	top: 88%;
-	left: 46%;
-	display: none;
+	position: relative;
+	left: 0%;
 }
 
 /********EXAMPLE*********/
@@ -129,6 +126,22 @@ header nav a{
 	background: url('../image/sec-2.jpg');
 	background-size: cover;
 	width: 100%;
+}
+
+.icon{
+	position: relative;
+	left: 45%;
+	top: 5px;
+	display: block;
+	text-decoration: none;
+	font-size: 2rem;
+	background-color: #50BDEA;
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+	padding: 7px 14px;
+	display: none;
+
 }
 
 /*******¿POR QUÉ?******/
@@ -162,4 +175,48 @@ header nav a{
 
 footer i{
 	font-size: 2rem;
+}
+
+
+@media (max-width: 500px) {
+  	.banner h1{
+	font-size: 2em;
+	padding: 60% 9%;
+	}
+
+	.navbar-nav>li>a {
+    line-height: 11px;
+	}
+
+	.navbar {
+	margin-bottom: 0;
+	}
+
+	header nav a{
+	font-size: 1rem;
+	}
+
+	.separador{
+		display: none;
+	}
+
+	.free-trial h3 {
+    font-size: 1rem;
+	}
+
+	.free{
+		bottom: 9px;
+	}
+
+	.example img{
+	display: none;
+	}
+
+	.i-want .col-xs-12{
+		padding: 0 11%;
+	}
+
+	footer p:nth-child(5){
+		float: none;
+	}
 }
